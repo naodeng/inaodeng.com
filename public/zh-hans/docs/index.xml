@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>文档 on HB 卡片主题模板</title><link>https://theme-cards.hbstack.dev/zh-hans/docs/</link><description>Recent content in 文档 on HB 卡片主题模板</description><generator>Hugo -- gohugo.io</generator><language>zh-hans</language><copyright>Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved.</copyright><atom:link href="https://theme-cards.hbstack.dev/zh-hans/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>从头开始安装</title><link>https://theme-cards.hbstack.dev/zh-hans/docs/install-from-scratch/</link><pubDate>Sat, 02 Dec 2023 11:47:31 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/docs/install-from-scratch/</guid><description>我们提供了一个示例站点以方便你快速入门该主题。
+请于 PowerShell 或者 Linux 终端运行以下命令，如 WSL 或 Git Bash。 环境要求 Go Hugo 扩展版 Node.js 16 或更高版本 了解更多关于先决条件的内容。
+克隆仓库 1git clone --depth 1 https://github.com/hbstack/theme-cards 复制示例站点 1cp -r theme-cards/exampleSite mysite 更改工作目录 1cd mysite 调整 go.mod 本文利用 sed 命令进行文件编辑，请随意使用你喜欢的编辑器打开和修改 go.mod。 替换模块路径 模块路径是站点的标识，其一般为仓库 URL，这里以 github.com/user/repo 为例，则需要将 module github.com/hbstack/theme-cards/exampleSite 替换为 module github.com/user/repo。
+1sed -i &amp;#39;1s/.*/module github.com\/user\/repo/&amp;#39; go.mod 删除 replace 指令 为了成功地构建站点，需要删除该内部使用的 replace 指令行：replace github.com/hbstack/theme-cards =&amp;gt; ../。
+1sed -i &amp;#39;/^replace/d&amp;#39; go.mod 安装依赖 1npm ci Hugo 模块代理（可选） 当你的所在地区（比如国内）无法访问默认的代理时，则需要设置Hugo 模块代理。</description></item><item><title>从 HB 新手模板迁移</title><link>https://theme-cards.hbstack.dev/zh-hans/docs/migrate-from-starter-theme/</link><pubDate>Fri, 01 Dec 2023 11:47:31 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/docs/migrate-from-starter-theme/</guid><description>你可以毫不费力地从新手主题迁移至卡片主题。
+导入卡片主题模块 你需要将 github.com/hbstack/theme-cards 模块置于顶部，以确保卡片主题获得更高的优先权。 TOML YAML JSON hugo.toml
+1[module] 2[[module.imports]] 3 path = &amp;#39;github.com/hbstack/theme-cards&amp;#39; hugo.yaml
+1module: 2 imports: 3 - path: github.com/hbstack/theme-cards hugo.json
+1{ 2 &amp;#34;module&amp;#34;: { 3 &amp;#34;imports&amp;#34;: [ 4 { 5 &amp;#34;path&amp;#34;: &amp;#34;github.com/hbstack/theme-cards&amp;#34; 6 } 7 ] 8 } 9} 调整参数 若要使首页幻灯片占据整行，可以通过调整置顶文章的位置为 list。
+TOML YAML JSON params.toml
+1[hb] 2 [hb.blog] 3 [hb.blog.home] 4 pinned_posts_position = &amp;#39;list&amp;#39; params.yaml
+1hb: 2 blog: 3 home: 4 pinned_posts_position: list params.json
+1{ 2 &amp;#34;hb&amp;#34;: { 3 &amp;#34;blog&amp;#34;: { 4 &amp;#34;home&amp;#34;: { 5 &amp;#34;pinned_posts_position&amp;#34;: &amp;#34;list&amp;#34; 6 } 7 } 8 } 9}</description></item></channel></rss>
