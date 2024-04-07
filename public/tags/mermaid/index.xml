@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mermaid on HB Cards Theme</title><link>https://theme-cards.hbstack.dev/tags/mermaid/</link><description>Recent content in Mermaid on HB Cards Theme</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved.</copyright><lastBuildDate>Sat, 06 Apr 2024 19:04:30 +0800</lastBuildDate><atom:link href="https://theme-cards.hbstack.dev/tags/mermaid/index.xml" rel="self" type="application/rss+xml"/><item><title>Diagrams and Charts</title><link>https://theme-cards.hbstack.dev/blog/2023/11/diagrams-and-charts/</link><pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate><guid>https://theme-cards.hbstack.dev/blog/2023/11/diagrams-and-charts/</guid><description>Using Mermaid Code Block 1```mermaid 2graph TD; 3 A--&amp;gt;B; 4 A--&amp;gt;C; 5 B--&amp;gt;D; 6 C--&amp;gt;D; 7``` graph TD; A-->B; A-->C; B-->D; C-->D; Using Mermaid Shortcode 1{{&amp;lt; mermaid &amp;gt;}} 2sequenceDiagram 3 participant Alice 4 participant Bob 5 Alice-&amp;gt;&amp;gt;John: Hello John, how are you? 6 loop Healthcheck 7 John-&amp;gt;&amp;gt;John: Fight against hypochondria 8 end 9 Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail! 10 John--&amp;gt;&amp;gt;Alice: Great! 11 John-&amp;gt;&amp;gt;Bob: How about you? 12 Bob--&amp;gt;&amp;gt;John: Jolly good!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mermaid on inaodeng.com</title>
+    <link>http://localhost:1313/tags/mermaid/</link>
+    <description>Recent content in Mermaid on inaodeng.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2022-{year} [inaodeng.com](https://inaodeng.com/) and [naodeng.com.cn](https://naodeng.com.cn/). All Rights Reserved.</copyright>
+    <lastBuildDate>Sun, 26 Nov 2023 16:36:24 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mermaid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diagrams and Charts</title>
+      <link>http://localhost:1313/blog/2023/11/diagrams-and-charts/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>http://localhost:1313/blog/2023/11/diagrams-and-charts/</guid>
+      <description>Using Mermaid Code Block 1```mermaid 2graph TD; 3 A--&amp;gt;B; 4 A--&amp;gt;C; 5 B--&amp;gt;D; 6 C--&amp;gt;D; 7``` graph TD; A--&gt;B; A--&gt;C; B--&gt;D; C--&gt;D; Using Mermaid Shortcode 1{{&amp;lt; mermaid &amp;gt;}} 2sequenceDiagram 3 participant Alice 4 participant Bob 5 Alice-&amp;gt;&amp;gt;John: Hello John, how are you? 6 loop Healthcheck 7 John-&amp;gt;&amp;gt;John: Fight against hypochondria 8 end 9 Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail! 10 John--&amp;gt;&amp;gt;Alice: Great! 11 John-&amp;gt;&amp;gt;Bob: How about you? 12 Bob--&amp;gt;&amp;gt;John: Jolly good!</description>
+    </item>
+  </channel>
+</rss>

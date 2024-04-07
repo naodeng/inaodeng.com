@@ -1,1 +1,76 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on HB Cards Theme</title><link>https://theme-cards.hbstack.dev/tags/</link><description>Recent content in Tags on HB Cards Theme</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved.</copyright><atom:link href="https://theme-cards.hbstack.dev/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Installation</title><link>https://theme-cards.hbstack.dev/tags/installation/</link><pubDate>Sat, 02 Dec 2023 11:47:31 +0800</pubDate><guid>https://theme-cards.hbstack.dev/tags/installation/</guid><description/></item><item><title>Migration</title><link>https://theme-cards.hbstack.dev/tags/migration/</link><pubDate>Fri, 01 Dec 2023 11:47:31 +0800</pubDate><guid>https://theme-cards.hbstack.dev/tags/migration/</guid><description/></item><item><title>Charts</title><link>https://theme-cards.hbstack.dev/tags/charts/</link><pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate><guid>https://theme-cards.hbstack.dev/tags/charts/</guid><description/></item><item><title>Diagrams</title><link>https://theme-cards.hbstack.dev/tags/diagrams/</link><pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate><guid>https://theme-cards.hbstack.dev/tags/diagrams/</guid><description/></item><item><title>KaTeX</title><link>https://theme-cards.hbstack.dev/tags/katex/</link><pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate><guid>https://theme-cards.hbstack.dev/tags/katex/</guid><description/></item><item><title>Math</title><link>https://theme-cards.hbstack.dev/tags/math/</link><pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate><guid>https://theme-cards.hbstack.dev/tags/math/</guid><description/></item><item><title>Mermaid</title><link>https://theme-cards.hbstack.dev/tags/mermaid/</link><pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate><guid>https://theme-cards.hbstack.dev/tags/mermaid/</guid><description/></item><item><title>Layouts</title><link>https://theme-cards.hbstack.dev/tags/layouts/</link><pubDate>Thu, 02 Nov 2023 11:47:31 +0800</pubDate><guid>https://theme-cards.hbstack.dev/tags/layouts/</guid><description/></item><item><title>Images</title><link>https://theme-cards.hbstack.dev/tags/images/</link><pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate><guid>https://theme-cards.hbstack.dev/tags/images/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on inaodeng.com</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on inaodeng.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2022-{year} [inaodeng.com](https://inaodeng.com/) and [naodeng.com.cn](https://naodeng.com.cn/). All Rights Reserved.</copyright>
+    <lastBuildDate>Sat, 02 Dec 2023 11:47:31 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation</title>
+      <link>http://localhost:1313/tags/installation/</link>
+      <pubDate>Sat, 02 Dec 2023 11:47:31 +0800</pubDate>
+      <guid>http://localhost:1313/tags/installation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Migration</title>
+      <link>http://localhost:1313/tags/migration/</link>
+      <pubDate>Fri, 01 Dec 2023 11:47:31 +0800</pubDate>
+      <guid>http://localhost:1313/tags/migration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Charts</title>
+      <link>http://localhost:1313/tags/charts/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>http://localhost:1313/tags/charts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diagrams</title>
+      <link>http://localhost:1313/tags/diagrams/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>http://localhost:1313/tags/diagrams/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KaTeX</title>
+      <link>http://localhost:1313/tags/katex/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>http://localhost:1313/tags/katex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Math</title>
+      <link>http://localhost:1313/tags/math/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>http://localhost:1313/tags/math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mermaid</title>
+      <link>http://localhost:1313/tags/mermaid/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>http://localhost:1313/tags/mermaid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Layouts</title>
+      <link>http://localhost:1313/tags/layouts/</link>
+      <pubDate>Thu, 02 Nov 2023 11:47:31 +0800</pubDate>
+      <guid>http://localhost:1313/tags/layouts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Images</title>
+      <link>http://localhost:1313/tags/images/</link>
+      <pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/images/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

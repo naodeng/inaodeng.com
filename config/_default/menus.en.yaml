@@ -7,19 +7,19 @@ main:
         vendor: fas
         name: blog
 
-  - name: Support
-    identifier: support
-    weight: 100
-    url: https://github.com/hbstack
-    params:
-      header: The HB support community.
-      icon:
-        vendor: font-awesome-solid
-        name: headset
+  # - name: Support
+  #   identifier: support
+  #   weight: 100
+  #   url: https://inaodeng.com/
+  #   params:
+  #     header: The HB support community.
+  #     icon:
+  #       vendor: font-awesome-solid
+  #       name: headset
 
   - name: Documentation
     parent: support
-    url: https://hbstack.dev/
+    url: https://inaodeng.com/
     weight: 1
     params:
       icon:
@@ -30,7 +30,7 @@ main:
 
   - name: GitHub
     parent: support
-    url: https://github.com/hbstack
+    url: https://github.com/inaodeng.com
     weight: 11
     params:
       icon:
@@ -40,7 +40,7 @@ main:
 
   - name: Discussion
     parent: support
-    url: https://github.com/orgs/hbstack/discussions
+    url: https://github.com/inaodeng.com/discussions
     weight: 12
     params:
       icon:
@@ -49,34 +49,34 @@ main:
         color: green
       description: Ask questions and share your ideas.
 
-  - name: Bug Report
-    parent: support
-    url: https://github.com/orgs/hbstack/discussions/new?category=issues-and-bugs
-    weight: 13
-    params:
-      icon:
-        vendor: font-awesome-solid
-        name: bug
-        color: red
-      description: Tell us about a bug or issue.
+  # - name: Bug Report
+  #   parent: support
+  #   url: https://github.com/orgs/hbstack/discussions/new?category=issues-and-bugs
+  #   weight: 13
+  #   params:
+  #     icon:
+  #       vendor: font-awesome-solid
+  #       name: bug
+  #       color: red
+  #     description: Tell us about a bug or issue.
 
-  - name: Feature Request
-    parent: support
-    url: https://github.com/orgs/hbstack/discussions/new?category=ideas
-    weight: 14
-    params:
-      icon:
-        vendor: font-awesome-regular
-        name: lightbulb
-        color: orange
-      description: Suggest new or updated features.
+  # - name: Feature Request
+  #   parent: support
+  #   url: https://github.com/orgs/hbstack/discussions/new?category=ideas
+  #   weight: 14
+  #   params:
+  #     icon:
+  #       vendor: font-awesome-regular
+  #       name: lightbulb
+  #       color: orange
+  #     description: Suggest new or updated features.
   
-  - name: Mastodon
-    parent: support
-    url: https://techhub.social/@hbstack
-    weight: 16
-    params:
-      icon:
-        vendor: simple
-        name: mastodon
-      description: Follow us on Mastodon to get latest updates.
+  # - name: Mastodon
+  #   parent: support
+  #   url: https://techhub.social/@hbstack
+  #   weight: 16
+  #   params:
+  #     icon:
+  #       vendor: simple
+  #       name: mastodon
+  #     description: Follow us on Mastodon to get latest updates.

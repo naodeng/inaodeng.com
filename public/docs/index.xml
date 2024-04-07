@@ -1,7 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on HB Cards Theme</title><link>https://theme-cards.hbstack.dev/docs/</link><description>Recent content in Docs on HB Cards Theme</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved.</copyright><atom:link href="https://theme-cards.hbstack.dev/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Install From Scratch</title><link>https://theme-cards.hbstack.dev/docs/install-from-scratch/</link><pubDate>Sat, 02 Dec 2023 11:47:31 +0800</pubDate><guid>https://theme-cards.hbstack.dev/docs/install-from-scratch/</guid><description>We offers an example site for getting started with this theme.
-Please run these commands from PowerShell or a Linux terminal such as WSL or Git Bash. Requirements Go Hugo extended version Node.js 16 or later Read more on prerequisites.
-Clone the Repository 1git clone --depth 1 https://github.com/hbstack/theme-cards Copy the Example Site 1cp -r theme-cards/exampleSite mysite Change Working Directory 1cd mysite Tweak go.mod This guide uses sed command to edit the file, please feel free to open and edit the go.</description></item><item><title>Migrate from HB Starter Theme</title><link>https://theme-cards.hbstack.dev/docs/migrate-from-starter-theme/</link><pubDate>Fri, 01 Dec 2023 11:47:31 +0800</pubDate><guid>https://theme-cards.hbstack.dev/docs/migrate-from-starter-theme/</guid><description>You can migrate to cards theme from the starter theme effortlessly within two steps.
-Import the Cards Theme Module You&amp;rsquo;ll ve to put the module github.com/hbstack/theme-cards on the top, to make sure that the cards theme gets higher priority. TOML YAML JSON hugo.toml
-1[module] 2[[module.imports]] 3 path = &amp;#39;github.com/hbstack/theme-cards&amp;#39; hugo.yaml
-1module: 2 imports: 3 - path: github.com/hbstack/theme-cards hugo.json
-1{ 2 &amp;#34;module&amp;#34;: { 3 &amp;#34;imports&amp;#34;: [ 4 { 5 &amp;#34;path&amp;#34;: &amp;#34;github.com/hbstack/theme-cards&amp;#34; 6 } 7 ] 8 } 9} Tweak Parameters To make the carousel to take whole row on homepage, you&amp;rsquo;ll need to tweak the position of pinned posts.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on inaodeng.com</title>
+    <link>http://localhost:1313/docs/</link>
+    <description>Recent content in Docs on inaodeng.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2022-{year} [inaodeng.com](https://inaodeng.com/) and [naodeng.com.cn](https://naodeng.com.cn/). All Rights Reserved.</copyright>
+    <lastBuildDate>Sat, 02 Dec 2023 11:47:31 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install From Scratch</title>
+      <link>http://localhost:1313/docs/install-from-scratch/</link>
+      <pubDate>Sat, 02 Dec 2023 11:47:31 +0800</pubDate>
+      <guid>http://localhost:1313/docs/install-from-scratch/</guid>
+      <description>We offers an example site for getting started with this theme.&#xA;Please run these commands from PowerShell or a Linux terminal such as WSL or Git Bash. Requirements Go Hugo extended version Node.js 16 or later Read more on prerequisites.&#xA;Clone the Repository 1git clone --depth 1 https://github.com/hbstack/theme-cards Copy the Example Site 1cp -r theme-cards/exampleSite mysite Change Working Directory 1cd mysite Tweak go.mod This guide uses sed command to edit the file, please feel free to open and edit the go.</description>
+    </item>
+    <item>
+      <title>Migrate from HB Starter Theme</title>
+      <link>http://localhost:1313/docs/migrate-from-starter-theme/</link>
+      <pubDate>Fri, 01 Dec 2023 11:47:31 +0800</pubDate>
+      <guid>http://localhost:1313/docs/migrate-from-starter-theme/</guid>
+      <description>You can migrate to cards theme from the starter theme effortlessly within two steps.&#xA;Import the Cards Theme Module You&amp;rsquo;ll ve to put the module github.com/hbstack/theme-cards on the top, to make sure that the cards theme gets higher priority. TOML YAML JSON hugo.toml&#xA;1[module] 2[[module.imports]] 3 path = &amp;#39;github.com/hbstack/theme-cards&amp;#39; hugo.yaml&#xA;1module: 2 imports: 3 - path: github.com/hbstack/theme-cards hugo.json&#xA;1{ 2 &amp;#34;module&amp;#34;: { 3 &amp;#34;imports&amp;#34;: [ 4 { 5 &amp;#34;path&amp;#34;: &amp;#34;github.com/hbstack/theme-cards&amp;#34; 6 } 7 ] 8 } 9} Tweak Parameters To make the carousel to take whole row on homepage, you&amp;rsquo;ll need to tweak the position of pinned posts.</description>
+    </item>
+  </channel>
+</rss>

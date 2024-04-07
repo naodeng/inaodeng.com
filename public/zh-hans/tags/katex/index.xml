@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>KaTeX on HB 卡片主题模板</title><link>https://theme-cards.hbstack.dev/zh-hans/tags/katex/</link><description>Recent content in KaTeX on HB 卡片主题模板</description><generator>Hugo -- gohugo.io</generator><language>zh-hans</language><copyright>Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved.</copyright><lastBuildDate>Sat, 06 Apr 2024 19:04:30 +0800</lastBuildDate><atom:link href="https://theme-cards.hbstack.dev/zh-hans/tags/katex/index.xml" rel="self" type="application/rss+xml"/><item><title>数学排版</title><link>https://theme-cards.hbstack.dev/zh-hans/blog/2023/11/%E6%95%B0%E5%AD%A6%E6%8E%92%E7%89%88/</link><pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/blog/2023/11/%E6%95%B0%E5%AD%A6%E6%8E%92%E7%89%88/</guid><description>使用 KaTeX 代码块 1```katex 2f(a,b,c) = (a^2+b^2+c^2)^3 3``` $$f(a,b,c) = (a^2&amp;#43;b^2&amp;#43;c^2)^3$$ 使用 KaTeX 短代码 1{{&amp;lt; katex &amp;gt;}} 2f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi 3{{&amp;lt; /katex &amp;gt;}} $$ f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi $$ 延伸阅读 KaTeX 官网 Hugo KaTeX 模块</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KaTeX on iNaoDeng.com</title>
+    <link>http://localhost:1313/zh-hans/tags/katex/</link>
+    <description>Recent content in KaTeX on iNaoDeng.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-hans</language>
+    <copyright>Copyright © 2022-{year} [inaodeng.com](https://inaodeng.com/) and [naodeng.com.cn](https://naodeng.com.cn/). All Rights Reserved.</copyright>
+    <lastBuildDate>Sun, 26 Nov 2023 16:36:24 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh-hans/tags/katex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>数学排版</title>
+      <link>http://localhost:1313/zh-hans/blog/2023/11/%E6%95%B0%E5%AD%A6%E6%8E%92%E7%89%88/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/blog/2023/11/%E6%95%B0%E5%AD%A6%E6%8E%92%E7%89%88/</guid>
+      <description>使用 KaTeX 代码块 1```katex 2f(a,b,c) = (a^2+b^2+c^2)^3 3``` $$f(a,b,c) = (a^2&amp;#43;b^2&amp;#43;c^2)^3$$ 使用 KaTeX 短代码 1{{&amp;lt; katex &amp;gt;}} 2f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi 3{{&amp;lt; /katex &amp;gt;}} $$ f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi $$ 延伸阅读 KaTeX 官网 Hugo KaTeX 模块 </description>
+    </item>
+  </channel>
+</rss>

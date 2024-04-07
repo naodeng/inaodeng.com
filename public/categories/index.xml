@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on HB Cards Theme</title><link>https://theme-cards.hbstack.dev/categories/</link><description>Recent content in Categories on HB Cards Theme</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved.</copyright><atom:link href="https://theme-cards.hbstack.dev/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Content</title><link>https://theme-cards.hbstack.dev/categories/content/</link><pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate><guid>https://theme-cards.hbstack.dev/categories/content/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on inaodeng.com</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on inaodeng.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2022-{year} [inaodeng.com](https://inaodeng.com/) and [naodeng.com.cn](https://naodeng.com.cn/). All Rights Reserved.</copyright>
+    <lastBuildDate>Sun, 26 Nov 2023 16:36:24 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Content</title>
+      <link>http://localhost:1313/categories/content/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>http://localhost:1313/categories/content/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

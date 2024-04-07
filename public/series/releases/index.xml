@@ -1,2 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Releases on HB Cards Theme</title><link>https://theme-cards.hbstack.dev/series/releases/</link><description>Recent content in Releases on HB Cards Theme</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved.</copyright><lastBuildDate>Sat, 06 Apr 2024 19:04:30 +0800</lastBuildDate><atom:link href="https://theme-cards.hbstack.dev/series/releases/index.xml" rel="self" type="application/rss+xml"/><item><title>First Version is out.</title><link>https://theme-cards.hbstack.dev/news/2023/11/first-version-is-out./</link><pubDate>Sun, 26 Nov 2023 16:26:40 +0800</pubDate><guid>https://theme-cards.hbstack.dev/news/2023/11/first-version-is-out./</guid><description>We&amp;rsquo;re proud to announce the first version (v0.1.0) of HB cards theme is available now.
-Please checkout out the docs for installing the theme.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Releases on inaodeng.com</title>
+    <link>http://localhost:1313/series/releases/</link>
+    <description>Recent content in Releases on inaodeng.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2022-{year} [inaodeng.com](https://inaodeng.com/) and [naodeng.com.cn](https://naodeng.com.cn/). All Rights Reserved.</copyright>
+    <lastBuildDate>Sun, 26 Nov 2023 16:26:40 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/series/releases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Version is out.</title>
+      <link>http://localhost:1313/news/2023/11/first-version-is-out./</link>
+      <pubDate>Sun, 26 Nov 2023 16:26:40 +0800</pubDate>
+      <guid>http://localhost:1313/news/2023/11/first-version-is-out./</guid>
+      <description>We&amp;rsquo;re proud to announce the first version (v0.1.0) of HB cards theme is available now.&#xA;Please checkout out the docs for installing the theme.</description>
+    </item>
+  </channel>
+</rss>

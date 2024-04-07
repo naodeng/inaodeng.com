@@ -1,15 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HugoMods Authors on HB 卡片主题模板</title><link>https://theme-cards.hbstack.dev/zh-hans/authors/hugomods/</link><description>Recent content in HugoMods Authors on HB 卡片主题模板</description><generator>Hugo -- gohugo.io</generator><language>zh-hans</language><copyright>Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved.</copyright><atom:link href="https://theme-cards.hbstack.dev/zh-hans/authors/hugomods/index.xml" rel="self" type="application/rss+xml"/><item><title>从头开始安装</title><link>https://theme-cards.hbstack.dev/zh-hans/docs/install-from-scratch/</link><pubDate>Sat, 02 Dec 2023 11:47:31 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/docs/install-from-scratch/</guid><description>我们提供了一个示例站点以方便你快速入门该主题。
-请于 PowerShell 或者 Linux 终端运行以下命令，如 WSL 或 Git Bash。 环境要求 Go Hugo 扩展版 Node.js 16 或更高版本 了解更多关于先决条件的内容。
-克隆仓库 1git clone --depth 1 https://github.com/hbstack/theme-cards 复制示例站点 1cp -r theme-cards/exampleSite mysite 更改工作目录 1cd mysite 调整 go.mod 本文利用 sed 命令进行文件编辑，请随意使用你喜欢的编辑器打开和修改 go.mod。 替换模块路径 模块路径是站点的标识，其一般为仓库 URL，这里以 github.com/user/repo 为例，则需要将 module github.com/hbstack/theme-cards/exampleSite 替换为 module github.com/user/repo。
-1sed -i &amp;#39;1s/.*/module github.com\/user\/repo/&amp;#39; go.mod 删除 replace 指令 为了成功地构建站点，需要删除该内部使用的 replace 指令行：replace github.com/hbstack/theme-cards =&amp;gt; ../。
-1sed -i &amp;#39;/^replace/d&amp;#39; go.mod 安装依赖 1npm ci Hugo 模块代理（可选） 当你的所在地区（比如国内）无法访问默认的代理时，则需要设置Hugo 模块代理。</description></item><item><title>从 HB 新手模板迁移</title><link>https://theme-cards.hbstack.dev/zh-hans/docs/migrate-from-starter-theme/</link><pubDate>Fri, 01 Dec 2023 11:47:31 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/docs/migrate-from-starter-theme/</guid><description>你可以毫不费力地从新手主题迁移至卡片主题。
-导入卡片主题模块 你需要将 github.com/hbstack/theme-cards 模块置于顶部，以确保卡片主题获得更高的优先权。 TOML YAML JSON hugo.toml
-1[module] 2[[module.imports]] 3 path = &amp;#39;github.com/hbstack/theme-cards&amp;#39; hugo.yaml
-1module: 2 imports: 3 - path: github.com/hbstack/theme-cards hugo.json
-1{ 2 &amp;#34;module&amp;#34;: { 3 &amp;#34;imports&amp;#34;: [ 4 { 5 &amp;#34;path&amp;#34;: &amp;#34;github.com/hbstack/theme-cards&amp;#34; 6 } 7 ] 8 } 9} 调整参数 若要使首页幻灯片占据整行，可以通过调整置顶文章的位置为 list。
-TOML YAML JSON params.toml
-1[hb] 2 [hb.blog] 3 [hb.blog.home] 4 pinned_posts_position = &amp;#39;list&amp;#39; params.yaml
-1hb: 2 blog: 3 home: 4 pinned_posts_position: list params.json
-1{ 2 &amp;#34;hb&amp;#34;: { 3 &amp;#34;blog&amp;#34;: { 4 &amp;#34;home&amp;#34;: { 5 &amp;#34;pinned_posts_position&amp;#34;: &amp;#34;list&amp;#34; 6 } 7 } 8 } 9}</description></item><item><title>数学排版</title><link>https://theme-cards.hbstack.dev/zh-hans/blog/2023/11/%E6%95%B0%E5%AD%A6%E6%8E%92%E7%89%88/</link><pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/blog/2023/11/%E6%95%B0%E5%AD%A6%E6%8E%92%E7%89%88/</guid><description>使用 KaTeX 代码块 1```katex 2f(a,b,c) = (a^2+b^2+c^2)^3 3``` $$f(a,b,c) = (a^2&amp;#43;b^2&amp;#43;c^2)^3$$ 使用 KaTeX 短代码 1{{&amp;lt; katex &amp;gt;}} 2f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi 3{{&amp;lt; /katex &amp;gt;}} $$ f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi $$ 延伸阅读 KaTeX 官网 Hugo KaTeX 模块</description></item><item><title>图表</title><link>https://theme-cards.hbstack.dev/zh-hans/blog/2023/11/%E5%9B%BE%E8%A1%A8/</link><pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/blog/2023/11/%E5%9B%BE%E8%A1%A8/</guid><description>使用 Mermaid 代码块 1```mermaid 2graph TD; 3 A--&amp;gt;B; 4 A--&amp;gt;C; 5 B--&amp;gt;D; 6 C--&amp;gt;D; 7``` graph TD; A-->B; A-->C; B-->D; C-->D; 使用 Mermaid 短代码 1{{&amp;lt; mermaid &amp;gt;}} 2sequenceDiagram 3 participant Alice 4 participant Bob 5 Alice-&amp;gt;&amp;gt;John: Hello John, how are you? 6 loop Healthcheck 7 John-&amp;gt;&amp;gt;John: Fight against hypochondria 8 end 9 Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail! 10 John--&amp;gt;&amp;gt;Alice: Great! 11 John-&amp;gt;&amp;gt;Bob: How about you? 12 Bob--&amp;gt;&amp;gt;John: Jolly good!</description></item><item><title>于其他板块使用文档布局</title><link>https://theme-cards.hbstack.dev/zh-hans/notes/use-docs-layout-on-other-sections/</link><pubDate>Thu, 02 Nov 2023 11:47:31 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/notes/use-docs-layout-on-other-sections/</guid><description>背景 默认情况下，文档布局应用于 docs 板块，在大多数情况下，将多个数字花园分割成不同的板块是合理的，例如多个项目的文档、指南和笔记。
-如何在其他部分使用文档布局？ 要在 docs 以外的板块使用文档布局，你需要做的是在前言中将 type 设置为 docs。
-TOML YAML JSON 1type = &amp;#39;docs&amp;#39; 1type: docs 1{ 2 &amp;#34;type&amp;#34;: &amp;#34;docs&amp;#34; 3}</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HugoMods Authors on iNaoDeng.com</title>
+    <link>http://localhost:1313/zh-hans/authors/hugomods/</link>
+    <description>Recent content in HugoMods Authors on iNaoDeng.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-hans</language>
+    <copyright>Copyright © 2022-{year} [inaodeng.com](https://inaodeng.com/) and [naodeng.com.cn](https://naodeng.com.cn/). All Rights Reserved.</copyright>
+    <lastBuildDate>Sat, 02 Dec 2023 11:47:31 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh-hans/authors/hugomods/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从头开始安装</title>
+      <link>http://localhost:1313/zh-hans/docs/install-from-scratch/</link>
+      <pubDate>Sat, 02 Dec 2023 11:47:31 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/docs/install-from-scratch/</guid>
+      <description>我们提供了一个示例站点以方便你快速入门该主题。&#xA;请于 PowerShell 或者 Linux 终端运行以下命令，如 WSL 或 Git Bash。 环境要求 Go Hugo 扩展版 Node.js 16 或更高版本 了解更多关于先决条件的内容。&#xA;克隆仓库 1git clone --depth 1 https://github.com/hbstack/theme-cards 复制示例站点 1cp -r theme-cards/exampleSite mysite 更改工作目录 1cd mysite 调整 go.mod 本文利用 sed 命令进行文件编辑，请随意使用你喜欢的编辑器打开和修改 go.mod。 替换模块路径 模块路径是站点的标识，其一般为仓库 URL，这里以 github.com/user/repo 为例，则需要将 module github.com/hbstack/theme-cards/exampleSite 替换为 module github.com/user/repo。&#xA;1sed -i &amp;#39;1s/.*/module github.com\/user\/repo/&amp;#39; go.mod 删除 replace 指令 为了成功地构建站点，需要删除该内部使用的 replace 指令行：replace github.com/hbstack/theme-cards =&amp;gt; ../。&#xA;1sed -i &amp;#39;/^replace/d&amp;#39; go.mod 安装依赖 1npm ci Hugo 模块代理（可选） 当你的所在地区（比如国内）无法访问默认的代理时，则需要设置Hugo 模块代理。</description>
+    </item>
+    <item>
+      <title>从 HB 新手模板迁移</title>
+      <link>http://localhost:1313/zh-hans/docs/migrate-from-starter-theme/</link>
+      <pubDate>Fri, 01 Dec 2023 11:47:31 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/docs/migrate-from-starter-theme/</guid>
+      <description>你可以毫不费力地从新手主题迁移至卡片主题。&#xA;导入卡片主题模块 你需要将 github.com/hbstack/theme-cards 模块置于顶部，以确保卡片主题获得更高的优先权。 TOML YAML JSON hugo.toml&#xA;1[module] 2[[module.imports]] 3 path = &amp;#39;github.com/hbstack/theme-cards&amp;#39; hugo.yaml&#xA;1module: 2 imports: 3 - path: github.com/hbstack/theme-cards hugo.json&#xA;1{ 2 &amp;#34;module&amp;#34;: { 3 &amp;#34;imports&amp;#34;: [ 4 { 5 &amp;#34;path&amp;#34;: &amp;#34;github.com/hbstack/theme-cards&amp;#34; 6 } 7 ] 8 } 9} 调整参数 若要使首页幻灯片占据整行，可以通过调整置顶文章的位置为 list。&#xA;TOML YAML JSON params.toml&#xA;1[hb] 2 [hb.blog] 3 [hb.blog.home] 4 pinned_posts_position = &amp;#39;list&amp;#39; params.yaml&#xA;1hb: 2 blog: 3 home: 4 pinned_posts_position: list params.json&#xA;1{ 2 &amp;#34;hb&amp;#34;: { 3 &amp;#34;blog&amp;#34;: { 4 &amp;#34;home&amp;#34;: { 5 &amp;#34;pinned_posts_position&amp;#34;: &amp;#34;list&amp;#34; 6 } 7 } 8 } 9} </description>
+    </item>
+    <item>
+      <title>数学排版</title>
+      <link>http://localhost:1313/zh-hans/blog/2023/11/%E6%95%B0%E5%AD%A6%E6%8E%92%E7%89%88/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/blog/2023/11/%E6%95%B0%E5%AD%A6%E6%8E%92%E7%89%88/</guid>
+      <description>使用 KaTeX 代码块 1```katex 2f(a,b,c) = (a^2+b^2+c^2)^3 3``` $$f(a,b,c) = (a^2&amp;#43;b^2&amp;#43;c^2)^3$$ 使用 KaTeX 短代码 1{{&amp;lt; katex &amp;gt;}} 2f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi 3{{&amp;lt; /katex &amp;gt;}} $$ f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi $$ 延伸阅读 KaTeX 官网 Hugo KaTeX 模块 </description>
+    </item>
+    <item>
+      <title>图表</title>
+      <link>http://localhost:1313/zh-hans/blog/2023/11/%E5%9B%BE%E8%A1%A8/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/blog/2023/11/%E5%9B%BE%E8%A1%A8/</guid>
+      <description>使用 Mermaid 代码块 1```mermaid 2graph TD; 3 A--&amp;gt;B; 4 A--&amp;gt;C; 5 B--&amp;gt;D; 6 C--&amp;gt;D; 7``` graph TD; A--&gt;B; A--&gt;C; B--&gt;D; C--&gt;D; 使用 Mermaid 短代码 1{{&amp;lt; mermaid &amp;gt;}} 2sequenceDiagram 3 participant Alice 4 participant Bob 5 Alice-&amp;gt;&amp;gt;John: Hello John, how are you? 6 loop Healthcheck 7 John-&amp;gt;&amp;gt;John: Fight against hypochondria 8 end 9 Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail! 10 John--&amp;gt;&amp;gt;Alice: Great! 11 John-&amp;gt;&amp;gt;Bob: How about you? 12 Bob--&amp;gt;&amp;gt;John: Jolly good!</description>
+    </item>
+    <item>
+      <title>于其他板块使用文档布局</title>
+      <link>http://localhost:1313/zh-hans/notes/use-docs-layout-on-other-sections/</link>
+      <pubDate>Thu, 02 Nov 2023 11:47:31 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/notes/use-docs-layout-on-other-sections/</guid>
+      <description>背景 默认情况下，文档布局应用于 docs 板块，在大多数情况下，将多个数字花园分割成不同的板块是合理的，例如多个项目的文档、指南和笔记。&#xA;如何在其他部分使用文档布局？ 要在 docs 以外的板块使用文档布局，你需要做的是在前言中将 type 设置为 docs。&#xA;TOML YAML JSON 1type = &amp;#39;docs&amp;#39; 1type: docs 1{ 2 &amp;#34;type&amp;#34;: &amp;#34;docs&amp;#34; 3} </description>
+    </item>
+  </channel>
+</rss>

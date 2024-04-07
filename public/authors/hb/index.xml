@@ -1,10 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HB Framework Authors on HB Cards Theme</title><link>https://theme-cards.hbstack.dev/authors/hb/</link><description>Recent content in HB Framework Authors on HB Cards Theme</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved.</copyright><atom:link href="https://theme-cards.hbstack.dev/authors/hb/index.xml" rel="self" type="application/rss+xml"/><item><title>Install From Scratch</title><link>https://theme-cards.hbstack.dev/docs/install-from-scratch/</link><pubDate>Sat, 02 Dec 2023 11:47:31 +0800</pubDate><guid>https://theme-cards.hbstack.dev/docs/install-from-scratch/</guid><description>We offers an example site for getting started with this theme.
-Please run these commands from PowerShell or a Linux terminal such as WSL or Git Bash. Requirements Go Hugo extended version Node.js 16 or later Read more on prerequisites.
-Clone the Repository 1git clone --depth 1 https://github.com/hbstack/theme-cards Copy the Example Site 1cp -r theme-cards/exampleSite mysite Change Working Directory 1cd mysite Tweak go.mod This guide uses sed command to edit the file, please feel free to open and edit the go.</description></item><item><title>Migrate from HB Starter Theme</title><link>https://theme-cards.hbstack.dev/docs/migrate-from-starter-theme/</link><pubDate>Fri, 01 Dec 2023 11:47:31 +0800</pubDate><guid>https://theme-cards.hbstack.dev/docs/migrate-from-starter-theme/</guid><description>You can migrate to cards theme from the starter theme effortlessly within two steps.
-Import the Cards Theme Module You&amp;rsquo;ll ve to put the module github.com/hbstack/theme-cards on the top, to make sure that the cards theme gets higher priority. TOML YAML JSON hugo.toml
-1[module] 2[[module.imports]] 3 path = &amp;#39;github.com/hbstack/theme-cards&amp;#39; hugo.yaml
-1module: 2 imports: 3 - path: github.com/hbstack/theme-cards hugo.json
-1{ 2 &amp;#34;module&amp;#34;: { 3 &amp;#34;imports&amp;#34;: [ 4 { 5 &amp;#34;path&amp;#34;: &amp;#34;github.com/hbstack/theme-cards&amp;#34; 6 } 7 ] 8 } 9} Tweak Parameters To make the carousel to take whole row on homepage, you&amp;rsquo;ll need to tweak the position of pinned posts.</description></item><item><title>Diagrams and Charts</title><link>https://theme-cards.hbstack.dev/blog/2023/11/diagrams-and-charts/</link><pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate><guid>https://theme-cards.hbstack.dev/blog/2023/11/diagrams-and-charts/</guid><description>Using Mermaid Code Block 1```mermaid 2graph TD; 3 A--&amp;gt;B; 4 A--&amp;gt;C; 5 B--&amp;gt;D; 6 C--&amp;gt;D; 7``` graph TD; A-->B; A-->C; B-->D; C-->D; Using Mermaid Shortcode 1{{&amp;lt; mermaid &amp;gt;}} 2sequenceDiagram 3 participant Alice 4 participant Bob 5 Alice-&amp;gt;&amp;gt;John: Hello John, how are you? 6 loop Healthcheck 7 John-&amp;gt;&amp;gt;John: Fight against hypochondria 8 end 9 Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail! 10 John--&amp;gt;&amp;gt;Alice: Great! 11 John-&amp;gt;&amp;gt;Bob: How about you? 12 Bob--&amp;gt;&amp;gt;John: Jolly good!</description></item><item><title>Math Typesetting</title><link>https://theme-cards.hbstack.dev/blog/2023/11/math-typesetting/</link><pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate><guid>https://theme-cards.hbstack.dev/blog/2023/11/math-typesetting/</guid><description>Using KaTeX Code Block 1```katex 2f(a,b,c) = (a^2+b^2+c^2)^3 3``` $$f(a,b,c) = (a^2&amp;#43;b^2&amp;#43;c^2)^3$$ Using KaTeX Shortcode 1{{&amp;lt; katex &amp;gt;}} 2f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi 3{{&amp;lt; /katex &amp;gt;}} $$ f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi $$ Further Reading KaTeX official site Hugo KaTeX module</description></item><item><title>First Version is out.</title><link>https://theme-cards.hbstack.dev/news/2023/11/first-version-is-out./</link><pubDate>Sun, 26 Nov 2023 16:26:40 +0800</pubDate><guid>https://theme-cards.hbstack.dev/news/2023/11/first-version-is-out./</guid><description>We&amp;rsquo;re proud to announce the first version (v0.1.0) of HB cards theme is available now.
-Please checkout out the docs for installing the theme.</description></item><item><title>Use Docs Layout on other Sections</title><link>https://theme-cards.hbstack.dev/notes/use-docs-layout-on-other-sections/</link><pubDate>Thu, 02 Nov 2023 11:47:31 +0800</pubDate><guid>https://theme-cards.hbstack.dev/notes/use-docs-layout-on-other-sections/</guid><description>Backgrounds The docs module/layout was applied for the docs section by default, it makes sense to separate the multiple digital gardens into different sections in most cases, such as docs for multiple projects, guides and notes.
-How to Use Docs Layout on other Sections? To use the docs layout on sections other than docs, what you need to do is to set the type to docs in front matter.
-TOML YAML JSON 1type = &amp;#39;docs&amp;#39; 1type: docs 1{ 2 &amp;#34;type&amp;#34;: &amp;#34;docs&amp;#34; 3}</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HB Framework Authors on inaodeng.com</title>
+    <link>http://localhost:1313/authors/hb/</link>
+    <description>Recent content in HB Framework Authors on inaodeng.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2022-{year} [inaodeng.com](https://inaodeng.com/) and [naodeng.com.cn](https://naodeng.com.cn/). All Rights Reserved.</copyright>
+    <lastBuildDate>Sat, 02 Dec 2023 11:47:31 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/authors/hb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install From Scratch</title>
+      <link>http://localhost:1313/docs/install-from-scratch/</link>
+      <pubDate>Sat, 02 Dec 2023 11:47:31 +0800</pubDate>
+      <guid>http://localhost:1313/docs/install-from-scratch/</guid>
+      <description>We offers an example site for getting started with this theme.&#xA;Please run these commands from PowerShell or a Linux terminal such as WSL or Git Bash. Requirements Go Hugo extended version Node.js 16 or later Read more on prerequisites.&#xA;Clone the Repository 1git clone --depth 1 https://github.com/hbstack/theme-cards Copy the Example Site 1cp -r theme-cards/exampleSite mysite Change Working Directory 1cd mysite Tweak go.mod This guide uses sed command to edit the file, please feel free to open and edit the go.</description>
+    </item>
+    <item>
+      <title>Migrate from HB Starter Theme</title>
+      <link>http://localhost:1313/docs/migrate-from-starter-theme/</link>
+      <pubDate>Fri, 01 Dec 2023 11:47:31 +0800</pubDate>
+      <guid>http://localhost:1313/docs/migrate-from-starter-theme/</guid>
+      <description>You can migrate to cards theme from the starter theme effortlessly within two steps.&#xA;Import the Cards Theme Module You&amp;rsquo;ll ve to put the module github.com/hbstack/theme-cards on the top, to make sure that the cards theme gets higher priority. TOML YAML JSON hugo.toml&#xA;1[module] 2[[module.imports]] 3 path = &amp;#39;github.com/hbstack/theme-cards&amp;#39; hugo.yaml&#xA;1module: 2 imports: 3 - path: github.com/hbstack/theme-cards hugo.json&#xA;1{ 2 &amp;#34;module&amp;#34;: { 3 &amp;#34;imports&amp;#34;: [ 4 { 5 &amp;#34;path&amp;#34;: &amp;#34;github.com/hbstack/theme-cards&amp;#34; 6 } 7 ] 8 } 9} Tweak Parameters To make the carousel to take whole row on homepage, you&amp;rsquo;ll need to tweak the position of pinned posts.</description>
+    </item>
+    <item>
+      <title>Diagrams and Charts</title>
+      <link>http://localhost:1313/blog/2023/11/diagrams-and-charts/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>http://localhost:1313/blog/2023/11/diagrams-and-charts/</guid>
+      <description>Using Mermaid Code Block 1```mermaid 2graph TD; 3 A--&amp;gt;B; 4 A--&amp;gt;C; 5 B--&amp;gt;D; 6 C--&amp;gt;D; 7``` graph TD; A--&gt;B; A--&gt;C; B--&gt;D; C--&gt;D; Using Mermaid Shortcode 1{{&amp;lt; mermaid &amp;gt;}} 2sequenceDiagram 3 participant Alice 4 participant Bob 5 Alice-&amp;gt;&amp;gt;John: Hello John, how are you? 6 loop Healthcheck 7 John-&amp;gt;&amp;gt;John: Fight against hypochondria 8 end 9 Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail! 10 John--&amp;gt;&amp;gt;Alice: Great! 11 John-&amp;gt;&amp;gt;Bob: How about you? 12 Bob--&amp;gt;&amp;gt;John: Jolly good!</description>
+    </item>
+    <item>
+      <title>Math Typesetting</title>
+      <link>http://localhost:1313/blog/2023/11/math-typesetting/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>http://localhost:1313/blog/2023/11/math-typesetting/</guid>
+      <description>Using KaTeX Code Block 1```katex 2f(a,b,c) = (a^2+b^2+c^2)^3 3``` $$f(a,b,c) = (a^2&amp;#43;b^2&amp;#43;c^2)^3$$ Using KaTeX Shortcode 1{{&amp;lt; katex &amp;gt;}} 2f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi 3{{&amp;lt; /katex &amp;gt;}} $$ f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi $$ Further Reading KaTeX official site Hugo KaTeX module </description>
+    </item>
+    <item>
+      <title>First Version is out.</title>
+      <link>http://localhost:1313/news/2023/11/first-version-is-out./</link>
+      <pubDate>Sun, 26 Nov 2023 16:26:40 +0800</pubDate>
+      <guid>http://localhost:1313/news/2023/11/first-version-is-out./</guid>
+      <description>We&amp;rsquo;re proud to announce the first version (v0.1.0) of HB cards theme is available now.&#xA;Please checkout out the docs for installing the theme.</description>
+    </item>
+    <item>
+      <title>Use Docs Layout on other Sections</title>
+      <link>http://localhost:1313/notes/use-docs-layout-on-other-sections/</link>
+      <pubDate>Thu, 02 Nov 2023 11:47:31 +0800</pubDate>
+      <guid>http://localhost:1313/notes/use-docs-layout-on-other-sections/</guid>
+      <description>Backgrounds The docs module/layout was applied for the docs section by default, it makes sense to separate the multiple digital gardens into different sections in most cases, such as docs for multiple projects, guides and notes.&#xA;How to Use Docs Layout on other Sections? To use the docs layout on sections other than docs, what you need to do is to set the type to docs in front matter.&#xA;TOML YAML JSON 1type = &amp;#39;docs&amp;#39; 1type: docs 1{ 2 &amp;#34;type&amp;#34;: &amp;#34;docs&amp;#34; 3} </description>
+    </item>
+  </channel>
+</rss>

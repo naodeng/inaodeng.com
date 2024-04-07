@@ -1,1 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>专栏 on HB 卡片主题模板</title><link>https://theme-cards.hbstack.dev/zh-hans/series/</link><description>Recent content in 专栏 on HB 卡片主题模板</description><generator>Hugo -- gohugo.io</generator><language>zh-hans</language><copyright>Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved.</copyright><atom:link href="https://theme-cards.hbstack.dev/zh-hans/series/index.xml" rel="self" type="application/rss+xml"/><item><title>文档</title><link>https://theme-cards.hbstack.dev/zh-hans/series/%E6%96%87%E6%A1%A3/</link><pubDate>Sat, 02 Dec 2023 11:47:31 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/series/%E6%96%87%E6%A1%A3/</guid><description/></item><item><title>Docs</title><link>https://theme-cards.hbstack.dev/zh-hans/series/docs/</link><pubDate>Fri, 01 Dec 2023 11:47:31 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/series/docs/</guid><description/></item><item><title>示例</title><link>https://theme-cards.hbstack.dev/zh-hans/series/%E7%A4%BA%E4%BE%8B/</link><pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/series/%E7%A4%BA%E4%BE%8B/</guid><description/></item><item><title>发布</title><link>https://theme-cards.hbstack.dev/zh-hans/series/%E5%8F%91%E5%B8%83/</link><pubDate>Sun, 26 Nov 2023 16:26:40 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/series/%E5%8F%91%E5%B8%83/</guid><description/></item><item><title>笔记</title><link>https://theme-cards.hbstack.dev/zh-hans/series/%E7%AC%94%E8%AE%B0/</link><pubDate>Thu, 02 Nov 2023 11:47:31 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/series/%E7%AC%94%E8%AE%B0/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>专栏 on iNaoDeng.com</title>
+    <link>http://localhost:1313/zh-hans/series/</link>
+    <description>Recent content in 专栏 on iNaoDeng.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-hans</language>
+    <copyright>Copyright © 2022-{year} [inaodeng.com](https://inaodeng.com/) and [naodeng.com.cn](https://naodeng.com.cn/). All Rights Reserved.</copyright>
+    <lastBuildDate>Sat, 02 Dec 2023 11:47:31 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh-hans/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>文档</title>
+      <link>http://localhost:1313/zh-hans/series/%E6%96%87%E6%A1%A3/</link>
+      <pubDate>Sat, 02 Dec 2023 11:47:31 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/series/%E6%96%87%E6%A1%A3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docs</title>
+      <link>http://localhost:1313/zh-hans/series/docs/</link>
+      <pubDate>Fri, 01 Dec 2023 11:47:31 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/series/docs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>示例</title>
+      <link>http://localhost:1313/zh-hans/series/%E7%A4%BA%E4%BE%8B/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/series/%E7%A4%BA%E4%BE%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>发布</title>
+      <link>http://localhost:1313/zh-hans/series/%E5%8F%91%E5%B8%83/</link>
+      <pubDate>Sun, 26 Nov 2023 16:26:40 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/series/%E5%8F%91%E5%B8%83/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>笔记</title>
+      <link>http://localhost:1313/zh-hans/series/%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Thu, 02 Nov 2023 11:47:31 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/series/%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

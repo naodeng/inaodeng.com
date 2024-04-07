@@ -1,1 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>标签 on HB 卡片主题模板</title><link>https://theme-cards.hbstack.dev/zh-hans/tags/</link><description>Recent content in 标签 on HB 卡片主题模板</description><generator>Hugo -- gohugo.io</generator><language>zh-hans</language><copyright>Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved.</copyright><atom:link href="https://theme-cards.hbstack.dev/zh-hans/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>安装</title><link>https://theme-cards.hbstack.dev/zh-hans/tags/%E5%AE%89%E8%A3%85/</link><pubDate>Sat, 02 Dec 2023 11:47:31 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/tags/%E5%AE%89%E8%A3%85/</guid><description/></item><item><title>迁移</title><link>https://theme-cards.hbstack.dev/zh-hans/tags/%E8%BF%81%E7%A7%BB/</link><pubDate>Fri, 01 Dec 2023 11:47:31 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/tags/%E8%BF%81%E7%A7%BB/</guid><description/></item><item><title>KaTeX</title><link>https://theme-cards.hbstack.dev/zh-hans/tags/katex/</link><pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/tags/katex/</guid><description/></item><item><title>Mermaid</title><link>https://theme-cards.hbstack.dev/zh-hans/tags/mermaid/</link><pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/tags/mermaid/</guid><description/></item><item><title>数学</title><link>https://theme-cards.hbstack.dev/zh-hans/tags/%E6%95%B0%E5%AD%A6/</link><pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/tags/%E6%95%B0%E5%AD%A6/</guid><description/></item><item><title>图表</title><link>https://theme-cards.hbstack.dev/zh-hans/tags/%E5%9B%BE%E8%A1%A8/</link><pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/tags/%E5%9B%BE%E8%A1%A8/</guid><description/></item><item><title>布局</title><link>https://theme-cards.hbstack.dev/zh-hans/tags/%E5%B8%83%E5%B1%80/</link><pubDate>Thu, 02 Nov 2023 11:47:31 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/tags/%E5%B8%83%E5%B1%80/</guid><description/></item><item><title>图片</title><link>https://theme-cards.hbstack.dev/zh-hans/tags/%E5%9B%BE%E7%89%87/</link><pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/tags/%E5%9B%BE%E7%89%87/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>标签 on iNaoDeng.com</title>
+    <link>http://localhost:1313/zh-hans/tags/</link>
+    <description>Recent content in 标签 on iNaoDeng.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-hans</language>
+    <copyright>Copyright © 2022-{year} [inaodeng.com](https://inaodeng.com/) and [naodeng.com.cn](https://naodeng.com.cn/). All Rights Reserved.</copyright>
+    <lastBuildDate>Sat, 02 Dec 2023 11:47:31 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh-hans/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>安装</title>
+      <link>http://localhost:1313/zh-hans/tags/%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Sat, 02 Dec 2023 11:47:31 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/tags/%E5%AE%89%E8%A3%85/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>迁移</title>
+      <link>http://localhost:1313/zh-hans/tags/%E8%BF%81%E7%A7%BB/</link>
+      <pubDate>Fri, 01 Dec 2023 11:47:31 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/tags/%E8%BF%81%E7%A7%BB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KaTeX</title>
+      <link>http://localhost:1313/zh-hans/tags/katex/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/tags/katex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mermaid</title>
+      <link>http://localhost:1313/zh-hans/tags/mermaid/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/tags/mermaid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>数学</title>
+      <link>http://localhost:1313/zh-hans/tags/%E6%95%B0%E5%AD%A6/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/tags/%E6%95%B0%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>图表</title>
+      <link>http://localhost:1313/zh-hans/tags/%E5%9B%BE%E8%A1%A8/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/tags/%E5%9B%BE%E8%A1%A8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>布局</title>
+      <link>http://localhost:1313/zh-hans/tags/%E5%B8%83%E5%B1%80/</link>
+      <pubDate>Thu, 02 Nov 2023 11:47:31 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/tags/%E5%B8%83%E5%B1%80/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>图片</title>
+      <link>http://localhost:1313/zh-hans/tags/%E5%9B%BE%E7%89%87/</link>
+      <pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-hans/tags/%E5%9B%BE%E7%89%87/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

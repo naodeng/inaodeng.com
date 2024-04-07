@@ -1,9 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on HB 卡片主题模板</title><link>https://theme-cards.hbstack.dev/zh-hans/series/docs/</link><description>Recent content in Docs on HB 卡片主题模板</description><generator>Hugo -- gohugo.io</generator><language>zh-hans</language><copyright>Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved.</copyright><lastBuildDate>Sat, 06 Apr 2024 19:04:30 +0800</lastBuildDate><atom:link href="https://theme-cards.hbstack.dev/zh-hans/series/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>从 HB 新手模板迁移</title><link>https://theme-cards.hbstack.dev/zh-hans/docs/migrate-from-starter-theme/</link><pubDate>Fri, 01 Dec 2023 11:47:31 +0800</pubDate><guid>https://theme-cards.hbstack.dev/zh-hans/docs/migrate-from-starter-theme/</guid><description>你可以毫不费力地从新手主题迁移至卡片主题。
-导入卡片主题模块 你需要将 github.com/hbstack/theme-cards 模块置于顶部，以确保卡片主题获得更高的优先权。 TOML YAML JSON hugo.toml
-1[module] 2[[module.imports]] 3 path = &amp;#39;github.com/hbstack/theme-cards&amp;#39; hugo.yaml
-1module: 2 imports: 3 - path: github.com/hbstack/theme-cards hugo.json
-1{ 2 &amp;#34;module&amp;#34;: { 3 &amp;#34;imports&amp;#34;: [ 4 { 5 &amp;#34;path&amp;#34;: &amp;#34;github.com/hbstack/theme-cards&amp;#34; 6 } 7 ] 8 } 9} 调整参数 若要使首页幻灯片占据整行，可以通过调整置顶文章的位置为 list。
-TOML YAML JSON params.toml
-1[hb] 2 [hb.blog] 3 [hb.blog.home] 4 pinned_posts_position = &amp;#39;list&amp;#39; params.yaml
-1hb: 2 blog: 3 home: 4 pinned_posts_position: list params.json
-1{ 2 &amp;#34;hb&amp;#34;: { 3 &amp;#34;blog&amp;#34;: { 4 &amp;#34;home&amp;#34;: { 5 &amp;#34;pinned_posts_position&amp;#34;: &amp;#34;list&amp;#34; 6 } 7 } 8 } 9}</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on iNaoDeng.com</title>
+    <link>http://localhost:1313/zh-hans/series/docs/</link>
+    <description>Recent content in Docs on iNaoDeng.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-hans</language>
+    <copyright>Copyright © 2022-{year} [inaodeng.com](https://inaodeng.com/) and [naodeng.com.cn](https://naodeng.com.cn/). All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 01 Dec 2023 11:47:31 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh-hans/series/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从 HB 新手模板迁移</title>
+      <link>http://localhost:1313/zh-hans/docs/migrate-from-starter-theme/</link>
+      <pubDate>Fri, 01 Dec 2023 11:47:31 +0800</pubDate>
+      <guid>http://localhost:1313/zh-hans/docs/migrate-from-starter-theme/</guid>
+      <description>你可以毫不费力地从新手主题迁移至卡片主题。&#xA;导入卡片主题模块 你需要将 github.com/hbstack/theme-cards 模块置于顶部，以确保卡片主题获得更高的优先权。 TOML YAML JSON hugo.toml&#xA;1[module] 2[[module.imports]] 3 path = &amp;#39;github.com/hbstack/theme-cards&amp;#39; hugo.yaml&#xA;1module: 2 imports: 3 - path: github.com/hbstack/theme-cards hugo.json&#xA;1{ 2 &amp;#34;module&amp;#34;: { 3 &amp;#34;imports&amp;#34;: [ 4 { 5 &amp;#34;path&amp;#34;: &amp;#34;github.com/hbstack/theme-cards&amp;#34; 6 } 7 ] 8 } 9} 调整参数 若要使首页幻灯片占据整行，可以通过调整置顶文章的位置为 list。&#xA;TOML YAML JSON params.toml&#xA;1[hb] 2 [hb.blog] 3 [hb.blog.home] 4 pinned_posts_position = &amp;#39;list&amp;#39; params.yaml&#xA;1hb: 2 blog: 3 home: 4 pinned_posts_position: list params.json&#xA;1{ 2 &amp;#34;hb&amp;#34;: { 3 &amp;#34;blog&amp;#34;: { 4 &amp;#34;home&amp;#34;: { 5 &amp;#34;pinned_posts_position&amp;#34;: &amp;#34;list&amp;#34; 6 } 7 } 8 } 9} </description>
+    </item>
+  </channel>
+</rss>
